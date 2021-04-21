@@ -1,0 +1,93 @@
+﻿@charset "utf-8";
+
+*{margin:0; padding:0;}
+li{list-style:none;}
+img{border:0px; vertical-align:middle;}
+a{color:#333; text-decoration:none;}
+
+
+#warrper{width:1200px; margin:0 auto;}
+
+/*header*/
+header{width:1200px; height:80px; position:relative; background-color:#154423;}
+	header h1{float:left; margin:10px;}
+		header a{color:#fff;}
+		
+	header .gnbBack {width:1200px; height:330px; background-color:rgba(0,0,0,0.3); position:absolute; z-index:1; top:80px;}
+	
+	header #menu{position:absolute; right:0; top:40px;}
+		header #menu .sub{float:left; margin-right:55px; }
+			header #menu .sub>a{font-size:30px; font-family:Impact;}
+				header #menu .sub>a:hover{color:#333;}
+			
+		header #menu .sub .ssub, .gnbBack{display:none;}
+		header #menu .sub .ssub>li{position:relative; z-index:999; padding-top:20px; text-align:center;}
+		header #menu .sub .ssub a:hover{color:#154423; font-weight:bold;}
+		
+/*figure*/
+	figure{position:relative; width:1200px; height:826px; overflow:hidden;}
+		figure img{position:absolute; left:0; top:0; }
+		
+/*section*/
+
+/*Sec1*/
+#Sec1{clear:both; position:relative; width:1200px;  height:1560px; background:url(../image사립/bg2.png) no-repeat center bottom; overflow:hidden;}
+	#Sec1>h1{font-size:60px; font-family:Impact; letter-spacing:10px; position:absolute; left:500px; top:300px;}
+	
+	#Sec1 .position{position:absolute;}
+		#Sec1 .out1{width:405px; height:605px; background-color:#154423; position:absolute; left:200px; overflow:hidden;}
+		#Sec1 .out1 img:nth-of-type(1){position:absolute; left:0px; bottom:20px;}
+		#Sec1 .out1 img:nth-of-type(2){position:absolute; left:400px; top:-10px;} /*평소에 숨어 있다가 나타나는 쪽으로. 원래 -150px*/	
+		
+		#Sec1 .out2{width:400px; height:290px; background-color:#9e9e9e; position:absolute; left:620px; overflow:hidden;}
+		#Sec1 .out2 img:nth-of-type(1){position:absolute; left:150px; top:20px;}
+		#Sec1 .out2 img:nth-of-type(2){position:absolute; left:90px; bottom:-200px;} /*평소에 숨어 있다가 나타나는 쪽으로. 원래 아래0*/
+		
+		
+		#Sec1 .out3{width:400px; height:290px; background-color:#9e9e9e; position:absolute; left:620px; top:800px; overflow:hidden;}
+		#Sec1 .out3 img:nth-of-type(1){position:absolute; right:0px; bottom:20px;}
+		#Sec1 .out3 img:nth-of-type(2){position:absolute; left:-300px; bottom:-20px;} /*평소에 숨어 있다가 나타나는 쪽으로. 원래 0*/
+		
+		
+		#Sec1 .out4{width:840px; height:150px; background-color:#000; position:absolute; left:200px; top:1130px; overflow:hidden;}
+				#Sec1 .out4 p{color:#fff; position:absolute; left:200px; top:-220px; font-size:210px; font-family:Impact;}
+				/*평소 위에 감춰져 있다. 평소 220*/
+		#Sec1 .cir{position:relative;}
+			#Sec1 .cir1{left:800px; top:247px;}
+			#Sec1 .cir2{left:-400px; top:1017px;}
+			
+/*Sec2*/
+#Sec2 .store{width:1200px; height:385px; background-color:#353535; position:relative; overflow:hidden; top:-2px;}
+	#Sec2 .store img:nth-of-type(1){position:absolute; left:0px; top:0px; z-index:1;}
+	#Sec2 .store img:nth-of-type(2){position:absolute; left:1000px; top:100px; z-index:2;} /*원자리는 left:100이다. */
+	#Sec2 .store img:nth-of-type(3){position:absolute; right:0px; bottom:0px; z-index:3;}
+	
+	
+/*Sec3*/	
+#Sec3{width:1200px; height:940px; position:relative;}
+	#Sec3>h1{font-size:60px; font-family:Impact; letter-spacing:10px; text-align:center; margin-top:150px;}
+	
+#Sec3 .menuN{margin-top:110px; height:410px;}
+	#Sec3 .menuN .left{width:320px; height:320px; border:1px solid #333; margin:10px; margin-right:20px; display:inline-block; color:#555; font-family:Impact;}
+		#Sec3 .menuN .left h3{font-size:30px; margin-top:330px;}
+		#Sec3 .menuN .left span{color:#959494; margin-top:5px; display:block;}
+		#Sec3 .menuN .left .border{border-top:1px solid; color:#959494; width:315px;}
+		#Sec3 .menuN .left .hover{position:absolute; left:0px; top:0px; width:320px; height:320px; background-color:rgba(0,0,0,0.3); display:none;}	
+			#Sec3 .menuN .left .hover>p{text-align:center; margin-top:160px; color:#fff; font-size:20px; font-weight:bold;}
+		
+		
+		#Sec3 .menuN .n1{margin-left:80px; background:url(../image사립/다운로드.jpg) no-repeat center; position:relative;}
+		#Sec3 .menuN .n2{background:url(../image사립/다운로드2.jpg) no-repeat center; position:relative;}
+		#Sec3 .menuN .n3{background:url(../image사립/다운로드3.jpg) no-repeat center; position:relative;}
+		
+/*Sec4*/
+	#Sec4{position:relative;}
+		#Sec4 img:nth-of-type(2){position:absolute; left:600px; top:200px;}
+		
+/*Sec5*/
+		#Sec5 .tt{background-color:#959595; width:890px; height:200px; float:left;} 
+		#Sec5 .fab{font-size:100px; margin-top:50px; margin-left:150px;}
+		#Sec5 .tt2{width:309px; height:200px; background-color:#000; float:right;}
+			#Sec5 .tt2 p{color:#fff; text-align:center; margin-top:80px; font-size:30px; font-family:Impact;}
+/*footer*/
+footer{clear:both; width:1200px; height:500px; background:#ccc;  margin-top:300px;}
